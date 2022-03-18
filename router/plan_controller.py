@@ -4,10 +4,10 @@ __desc__ = '更多测试开发技术探讨，请访问：https://ceshiren.com/t/
 """
 
 
-from flask import Flask, request
-from flask_restx import Resource, Api, Namespace, fields
+from flask import request
+from flask_restx import Resource, Namespace, fields
 
-from plan.plan_service import PlanService
+from service.plan_service import Plan
 
 plan_ns = Namespace("testcase", description="测试用例管理")
 
@@ -31,8 +31,8 @@ class PlanController(Resource):
     # restful 风格的 post 方法
     def post(self):
         plan_data = request.json.get("data")
-        plan_service = PlanService()
-        res = plan_service.execute(plan_data)
+        plan_service = Plan.execute(plan_data)
+        res = plan_service.execute()
         return {"code": 0, "msg": res}
 
     # restful 风格的 put 方法

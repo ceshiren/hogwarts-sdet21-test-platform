@@ -5,7 +5,7 @@ __desc__ = '更多测试开发技术探讨，请访问：https://ceshiren.com/t/
 # service 层负责跨领域的，测试用例相关的业务逻辑
 
 # 1.
-from testcase.testcase_dao import TestcaseDao
+from dao.testcase_dao import TestcaseDao
 
 
 class TestcaseService:

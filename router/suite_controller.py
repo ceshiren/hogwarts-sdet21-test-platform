@@ -4,10 +4,10 @@ __desc__ = '更多测试开发技术探讨，请访问：https://ceshiren.com/t/
 """
 
 
-from flask import Flask, request
-from flask_restx import Resource, Api, Namespace, fields
+from flask import request
+from flask_restx import Resource, Namespace, fields
 
-from suite.suite_service import SuiteService
+from service.suite_service import SuiteService
 
 suite_ns = Namespace("testcase", description="测试用例管理")
 
