@@ -1,6 +1,0 @@
-## 进行数据库的配置
-database:
-  username: root
-  password: 1qaz9ol.
-  server: 134.175.28.202
-  db: ck21
