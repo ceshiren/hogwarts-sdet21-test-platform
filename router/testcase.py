@@ -8,6 +8,7 @@ from flask_restx import Namespace, Resource
 from backend_actual.log_util import logger
 from dao.testcase_model import TestCase
 from server import api, db
+from service.testcase import Testcase
 
 case_ns = Namespace("case", description="用例管理")
 
@@ -25,28 +26,15 @@ class TestCaseServer(Resource):
         测试用例的查找
         :return:
         """
+        # 接口的请求数据信息
         case_id = request.args.get("id")
-
         logger.info(f"type(request.args) <===== {type(request.args)}")
         logger.info(f"接收到的参数 <===== {case_id}")
-        if case_id:
-            # 如果不为空，查询操作
-            case_data = TestCase.query.filter_by(id=case_id).first()
-            logger.info(f"{case_data}")
-            if case_data:
-                datas = [{"id": case_data.id,
-                          "case_title": case_data.case_title,
-                          "remark": case_data.remark}]
-                logger.info(f"要返回的数据为<======{datas}")
-            else:
-                datas = []
-        else:
-            # 为空，返回所有记录
-            case_datas = TestCase.query.all()
-            datas = [{"id": case_data.id,
-                      "case_title": case_data.case_title,
-                      "remark": case_data.remark} for case_data in case_datas]
-
+        # =====调用service层的具体的业务逻辑
+        testcase = Testcase()
+        datas = testcase.get(case_id)
+        # ====
+        # 给接口的响应内容
         return datas
 
     post_paresr = api.parser()

@@ -84,3 +84,7 @@
 [2022-03-20 15:27:04] [INFO] [case_table.py]/[line: 72]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase_demo.py', 'remark': 'string'}] 
 [2022-03-20 15:27:17] [INFO] [case_table.py]/[line: 62]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
 [2022-03-20 15:27:17] [INFO] [case_table.py]/[line: 63]/[get] 接收到的参数 <===== None 
+[2022-03-20 16:01:58] [INFO] [testcase.py]/[line: 30]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-20 16:01:58] [INFO] [testcase.py]/[line: 31]/[get] 接收到的参数 <===== None 
+[2022-03-20 16:40:38] [INFO] [testcase.py]/[line: 31]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-20 16:40:38] [INFO] [testcase.py]/[line: 32]/[get] 接收到的参数 <===== None 

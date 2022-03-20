@@ -19,3 +19,12 @@ class TestCase(db.Model):
     # 备注
     remark = db.Column(String(120))
 
+    @classmethod
+    def get_all(cls):
+        return cls.query.all()
+
+    @classmethod
+    def get_by_filter(cls, **kwargs):
+        return cls.query.filter_by(**kwargs).first()
+
+
