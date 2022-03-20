@@ -106,6 +106,7 @@ class TestCaseServer(Resource):
             logger.info(f"将要存储的内容为<======{testcase}")
             db.session.add(testcase)
             db.session.commit()
+            db.session.close()
             return {"code": 0, "msg": f"case id {case_id} success add."}
         else:
             return {"code": 40001, "msg": "case is exists"}
@@ -135,6 +136,7 @@ class TestCaseServer(Resource):
             case_data1["remark"] = case_data.get("remark")
             TestCase.query.filter_by(id=case_id).update(case_data1)
             db.session.commit()
+            db.session.close()
             return {"code": 0, "msg": f"case id {case_id} success change to {case_data1}"}
         else:
             return {"code": 40002, "msg": "case is not exists"}
@@ -154,7 +156,10 @@ class TestCaseServer(Resource):
         exists = TestCase.query.filter_by(id=case_id).first()
         if exists:
             TestCase.query.filter_by(id=case_id).delete()
+            # commit 之后需要添加close
             db.session.commit()
+            db.session.close()
+
             return {"code": 0, "msg": f"case id {case_id} success delete"}
         else:
             return {"code": 40002, "msg": f"case is not exists"}
