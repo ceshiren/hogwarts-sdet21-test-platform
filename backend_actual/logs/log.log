@@ -102,3 +102,21 @@
 [2022-03-20 16:57:57] [INFO] [testcase_model.py]/[line: 34]/[create] 将要存储的内容为<======<TestCase (transient 4599865296)> 
 [2022-03-20 17:03:09] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
 [2022-03-20 17:03:09] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-20 17:12:21] [INFO] [testcase.py]/[line: 17]/[get] <TestCase 1> 
+[2022-03-20 17:12:21] [INFO] [testcase.py]/[line: 22]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase_demo.py', 'remark': 'string'}] 
+[2022-03-20 17:13:12] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase_demo.py', 'remark': 'string'}, {'id': 2, 'case_title': 'test_demo2.py', 'remark': 'content1'}, {'id': 3, 'case_title': 'testcase3.py', 'remark': 'string3'}, {'id': 4, 'case_title': 'testcase4.py', 'remark': 'string444'}] 
+[2022-03-20 17:13:37] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase_demo.py', 'remark': 'string'}, {'id': 2, 'case_title': 'test_demo2.py', 'remark': 'content1'}, {'id': 3, 'case_title': 'testcase3.py', 'remark': 'string3'}, {'id': 4, 'case_title': 'testcase4.py', 'remark': 'string444'}] 
+[2022-03-20 17:16:41] [INFO] [testcase.py]/[line: 40]/[create] 查询表结果：None 
+[2022-03-20 17:16:41] [INFO] [testcase_model.py]/[line: 34]/[create] 将要存储的内容为<======<TestCase (transient 4451850416)> 
+[2022-03-20 17:16:41] [INFO] [testcase.py]/[line: 17]/[get] None 
+[2022-03-20 17:16:41] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[] 
+[2022-03-20 17:24:05] [INFO] [testcase.py]/[line: 17]/[get] None 
+[2022-03-20 17:24:05] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[] 
+[2022-03-20 17:25:21] [INFO] [testcase.py]/[line: 40]/[create] 查询表结果：None 
+[2022-03-20 17:25:21] [INFO] [testcase_model.py]/[line: 34]/[create] 将要存储的内容为<======<TestCase (transient 4529617456)> 
+[2022-03-20 17:25:21] [INFO] [testcase.py]/[line: 17]/[get] <TestCase 6> 
+[2022-03-20 17:25:21] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 6, 'case_title': 'testcase6.py', 'remark': '6666'}] 
+[2022-03-20 17:25:27] [INFO] [testcase.py]/[line: 40]/[create] 查询表结果：None 
+[2022-03-20 17:25:27] [INFO] [testcase_model.py]/[line: 34]/[create] 将要存储的内容为<======<TestCase (transient 4456184224)> 
+[2022-03-20 17:25:27] [INFO] [testcase.py]/[line: 17]/[get] <TestCase 6> 
+[2022-03-20 17:25:27] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 6, 'case_title': 'testcase6.py', 'remark': '6666'}] 

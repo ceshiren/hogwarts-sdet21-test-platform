@@ -9,7 +9,7 @@ from server import db
 
 
 class Testcase:
-    def get(self, case_id):
+    def get(self, case_id=None):
         if case_id:
             # 如果不为空，查询操作
             # case_data = TestCase.query.filter_by(id=case_id).first()
@@ -19,7 +19,6 @@ class Testcase:
                 datas = [{"id": case_data.id,
                           "case_title": case_data.case_title,
                           "remark": case_data.remark}]
-                logger.info(f"要返回的数据为<======{datas}")
             else:
                 datas = []
         else:
@@ -28,6 +27,8 @@ class Testcase:
             datas = [{"id": case_data.id,
                       "case_title": case_data.case_title,
                       "remark": case_data.remark} for case_data in case_datas]
+        logger.info(f"要返回的数据为<======{datas}")
+
         # return datas 保证路由有要返回的数据
         return datas
 
@@ -42,3 +43,17 @@ class Testcase:
             return True
         else:
             return False
+
+    def delete(self, case_id):
+        """
+
+        :param case_id:
+        :return:
+        """
+        # exists = TestCase.query.filter_by(id=case_id).first()
+        exists = TestCase.get_by_filter(id=case_id)
+        if exists:
+            TestCase.delete(id=case_id)
+            return True
+        return False
+

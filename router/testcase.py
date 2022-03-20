@@ -104,16 +104,15 @@ class TestCaseServer(Resource):
         测试用例的删除
         :return:
         """
+        # 接口响应信息
         case_data = request.json
         case_id = case_data.get("id")
         logger.info(f"接收到的参数id <====={case_id}")
-        exists = TestCase.query.filter_by(id=case_id).first()
-        if exists:
-            TestCase.query.filter_by(id=case_id).delete()
-            # commit 之后需要添加close
-            db.session.commit()
-            db.session.close()
 
+        testcase = Testcase()
+        r = testcase.delete(case_id)
+        if r:
+            # 接口的返回信息
             return {"code": 0, "msg": f"case id {case_id} success delete"}
         else:
             return {"code": 40002, "msg": f"case is not exists"}

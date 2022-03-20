@@ -36,3 +36,9 @@ class TestCase(db.Model):
         db.session.commit()
         db.session.close()
 
+    @classmethod
+    def delete(cls, **kwargs):
+        TestCase.query.filter_by(**kwargs).delete()
+        # commit 之后需要添加close
+        db.session.commit()
+        db.session.close()  # 接口的返回信息
