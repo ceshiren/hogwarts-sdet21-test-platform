@@ -5,6 +5,7 @@ __desc__ = '更多测试开发技术探讨，请访问：https://ceshiren.com/t/
 # 服务层
 from backend_actual.log_util import logger
 from dao.testcase_model import TestCase
+from server import db
 
 
 class Testcase:
@@ -29,3 +30,15 @@ class Testcase:
                       "remark": case_data.remark} for case_data in case_datas]
         # return datas 保证路由有要返回的数据
         return datas
+
+    def create(self,  case_id, case_title, remark):
+        case_id = case_id
+        # 查询数据库，查看是否有记录
+        # exists = TestCase.query.filter_by(id=case_id).first()
+        exists = TestCase.get_by_filter(id=case_id)
+        logger.info(f"查询表结果：{exists}")
+        if not exists:
+            TestCase.create( case_id, case_title, remark)
+            return True
+        else:
+            return False

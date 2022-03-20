@@ -6,6 +6,7 @@ __desc__ = '更多测试开发技术探讨，请访问：https://ceshiren.com/t/
 # dao 层，只负责和数据库交互相关，供上层service调用。
 from sqlalchemy import *
 
+from backend_actual.log_util import logger
 from server import db
 
 
@@ -27,4 +28,11 @@ class TestCase(db.Model):
     def get_by_filter(cls, **kwargs):
         return cls.query.filter_by(**kwargs).first()
 
+    @classmethod
+    def create(cls, case_id, case_title, remark):
+        testcase = cls(id=case_id, case_title=case_title, remark=remark)
+        logger.info(f"将要存储的内容为<======{testcase}")
+        db.session.add(testcase)
+        db.session.commit()
+        db.session.close()
 

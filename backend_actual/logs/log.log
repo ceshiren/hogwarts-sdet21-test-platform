@@ -88,3 +88,17 @@
 [2022-03-20 16:01:58] [INFO] [testcase.py]/[line: 31]/[get] 接收到的参数 <===== None 
 [2022-03-20 16:40:38] [INFO] [testcase.py]/[line: 31]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
 [2022-03-20 16:40:38] [INFO] [testcase.py]/[line: 32]/[get] 接收到的参数 <===== None 
+[2022-03-20 16:50:47] [INFO] [testcase.py]/[line: 31]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-20 16:50:47] [INFO] [testcase.py]/[line: 32]/[get] 接收到的参数 <===== None 
+[2022-03-20 16:51:06] [INFO] [testcase.py]/[line: 53]/[post] 接收到的参数<====== {'id': 3, 'case_title': 'testcase3.py', 'remark': 'string3'} 
+[2022-03-20 16:51:06] [INFO] [testcase.py]/[line: 38]/[create] 查询表结果：None 
+[2022-03-20 16:51:06] [INFO] [testcase.py]/[line: 41]/[create] 将要存储的内容为<======<TestCase (transient 4478341760)> 
+[2022-03-20 16:51:12] [INFO] [testcase.py]/[line: 31]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-20 16:51:12] [INFO] [testcase.py]/[line: 32]/[get] 接收到的参数 <===== None 
+[2022-03-20 16:57:37] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-20 16:57:37] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-20 16:57:57] [INFO] [testcase.py]/[line: 54]/[post] 接收到的参数<====== {'id': 4, 'case_title': 'testcase4.py', 'remark': 'string444'} 
+[2022-03-20 16:57:57] [INFO] [testcase.py]/[line: 39]/[create] 查询表结果：None 
+[2022-03-20 16:57:57] [INFO] [testcase_model.py]/[line: 34]/[create] 将要存储的内容为<======<TestCase (transient 4599865296)> 
+[2022-03-20 17:03:09] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-20 17:03:09] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 

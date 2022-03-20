@@ -12,6 +12,7 @@ from service.testcase import Testcase
 
 case_ns = Namespace("case", description="用例管理")
 
+
 @case_ns.route("")
 class TestCaseServer(Resource):
     get_paresr = api.parser()
@@ -52,17 +53,14 @@ class TestCaseServer(Resource):
         case_data = request.json
         logger.info(f"接收到的参数<====== {case_data}")
         case_id = case_data.get("id")
-        # 查询数据库，查看是否有记录
-        exists = TestCase.query.filter_by(id=case_id).first()
-        logger.info(f"查询表结果：{exists}")
+        case_title = case_data.get("case_title")
+        remark = case_data.get("remark")
+        # case_id
         # 如果不存在，则添加这条记录到库中
         # 如果存在，不执行新增操作， 返回 40001错误码
-        if not exists:
-            testcase = TestCase(**case_data)
-            logger.info(f"将要存储的内容为<======{testcase}")
-            db.session.add(testcase)
-            db.session.commit()
-            db.session.close()
+        testcae = Testcase()
+        r = testcae.create(case_id, case_title, remark)
+        if r:
             return {"code": 0, "msg": f"case id {case_id} success add."}
         else:
             return {"code": 40001, "msg": "case is exists"}
