@@ -14,7 +14,7 @@ from jenkinsapi.jenkins import Jenkins
 
 BASE_URL = "http://www.loseweight.ren:8080/" # Jenkins服务地址
 USERNAME = "admin" # Jenkins的用户名
-PASSWORD = "11226b92e460058bb05efc971b9fae92f8" # Jenkins用户的token
+PASSWORD = "11d4051dbc3cc66c2fbfcd7bb5772f7ae9" # Jenkins用户的token
 JOB = "python_ck"
 jenkins_hogwarts = Jenkins(BASE_URL, USERNAME, PASSWORD)
 print(jenkins_hogwarts.version)

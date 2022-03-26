@@ -36,7 +36,7 @@ class TestCaseServer(Resource):
         datas = testcase.get(case_id)
         # ====
         # 给接口的响应内容
-        return datas
+        return {"code": 0, "msg": {"status": "success", "data": datas}}
 
     post_paresr = api.parser()
     post_paresr.add_argument("id", type=int, required=True, location="json")
