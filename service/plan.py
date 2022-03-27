@@ -17,6 +17,8 @@ class Plan:
         """
         logger.debug(f"测试计划{plan_id}，"
                      f"要执行的的测试用例内容{case_titles}")
+        # 调用执行器执行测试用例
+        # 写入构建记录
 
 
     def create(self, name, case_id_lists):
@@ -42,6 +44,12 @@ class Plan:
 
 
     def get(self, plan_id=None):
+        """
+
+        :param plan_id:
+        :return:
+        """
+
         plan_objects = self.get_objs(plan_id)
         plan_datas = [{"id":plan_object.id,
                        "name": plan_object.name,
@@ -51,6 +59,7 @@ class Plan:
                       for plan_object in plan_objects]
         logger.info(f"获取到的测试计划的数据为->{plan_datas}")
         return plan_datas
+
 
     def get_objs(self, plan_id=None):
         if plan_id:

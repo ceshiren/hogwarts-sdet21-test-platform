@@ -162,3 +162,8 @@
 [2022-03-27 16:08:10] [DEBUG] [plan.py]/[line: 59]/[get_objs] 获取到的测试计划的列表为[<PlanModel 3>] 
 [2022-03-27 16:08:10] [INFO] [plan.py]/[line: 51]/[get] 获取到的测试计划的数据为->[{'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}] 
 [2022-03-27 16:08:10] [DEBUG] [plan.py]/[line: 18]/[execute] 测试计划3，要执行的的测试用例内容['testcase1.py'] 
+[2022-03-27 16:32:15] [DEBUG] [build.py]/[line: 43]/[create] 创建构建记录对应的计划id为1， 测试报告为测试报告 
+[2022-03-27 16:32:24] [DEBUG] [build.py]/[line: 33]/[get_objs_by_plan_id] 获取到的构建记录的列表为[<BuildModel 1>] 
+[2022-03-27 16:32:24] [INFO] [build.py]/[line: 23]/[get] 获取到的构建记录的数据为->[{'plan_id': 1, 'report': '测试报告'}] 
+[2022-03-27 16:32:59] [DEBUG] [build.py]/[line: 34]/[get_objs_by_plan_id] 获取到的构建记录的列表为[<BuildModel 1>] 
+[2022-03-27 16:32:59] [INFO] [build.py]/[line: 24]/[get] 获取到的构建记录的数据为->[{'plan_id': 1, 'report': '测试报告', 'created_at': datetime.datetime(2022, 3, 27, 16, 32, 16)}] 
