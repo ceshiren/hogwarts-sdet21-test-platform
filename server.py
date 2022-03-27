@@ -7,6 +7,7 @@ from flask_restx import Api
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import Session
 
+
 app = Flask(__name__)
 api = Api(app)
 
@@ -31,6 +32,10 @@ db_session:Session = db.session
 # 导包
 def get_router():
     from router.testcase import case_ns
+    from router.build import build_ns
+    from router.plan import plan_ns
+    api.add_namespace(build_ns, "/build")
+    api.add_namespace(plan_ns, "/plan")
     api.add_namespace(case_ns, "/testcase")
 
 if __name__ == '__main__':

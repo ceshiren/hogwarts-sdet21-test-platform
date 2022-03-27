@@ -187,3 +187,21 @@
 [2022-03-27 16:55:45] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 6, 'name': '企业微信计划', 'testcase_info': ['test_wework_case.py']}] 
 [2022-03-27 16:55:45] [DEBUG] [plan.py]/[line: 24]/[execute] 测试计划6，要执行的的测试用例内容test_wework_case.py 
 [2022-03-27 16:55:45] [DEBUG] [build.py]/[line: 45]/[create] 创建构建记录对应的计划id为6， 测试报告为http://www.loseweight.ren:8080/job/ck21/15/allure 
+[2022-03-27 17:15:39] [INFO] [build.py]/[line: 30]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 17:15:39] [DEBUG] [build.py]/[line: 35]/[get_objs_by_plan_id] 获取到的构建记录的列表为[<BuildModel 1>, <BuildModel 2>] 
+[2022-03-27 17:15:39] [INFO] [build.py]/[line: 25]/[get] 获取到的构建记录的数据为->[{'plan_id': 1, 'report': '测试报告', 'created_at': '2022-03-27 16:32:16'}, {'plan_id': 6, 'report': 'http://www.loseweight.ren:8080/job/ck21/15/allure', 'created_at': '2022-03-27 16:55:45'}] 
+[2022-03-27 17:15:53] [INFO] [plan.py]/[line: 30]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:15:53] [INFO] [plan.py]/[line: 31]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 17:15:53] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 6>, <PlanModel 1>, <PlanModel 2>, <PlanModel 3>, <PlanModel 4>, <PlanModel 5>] 
+[2022-03-27 17:15:53] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 6, 'name': '企业微信计划', 'testcase_info': ['test_wework_case.py']}, {'id': 1, 'name': '测试计划1', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}, {'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}, {'id': 4, 'name': '飞书计划', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 5, 'name': '飞书计划2', 'testcase_info': ['testcase1.py', 'testcase2.py']}] 
+[2022-03-27 17:16:46] [INFO] [plan.py]/[line: 51]/[post] 测试计划新增接口接收到的参数<====== {'name': 'hogwarts1', 'testcases': '[3]'} 
+[2022-03-27 17:16:46] [DEBUG] [plan.py]/[line: 45]/[create] 测试列表[3]，获取到的测试用例的对象为[None, <TestcaseModel 3>, None] 
+[2022-03-27 17:18:41] [INFO] [plan.py]/[line: 53]/[post] 测试计划新增接口接收到的参数<====== {'name': 'hogwarts2', 'testcases': '[3]'} 
+[2022-03-27 17:18:41] [DEBUG] [plan.py]/[line: 45]/[create] 测试列表[3]，获取到的测试用例的对象为[<TestcaseModel 3>] 
+[2022-03-27 17:18:41] [DEBUG] [plan_model.py]/[line: 50]/[create] 创建的测试计划的ID为->8 
+[2022-03-27 17:18:41] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 8>] 
+[2022-03-27 17:18:41] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 8, 'name': 'hogwarts2', 'testcase_info': ['test_wework_case.py']}] 
+[2022-03-27 17:18:41] [DEBUG] [plan.py]/[line: 24]/[execute] 测试计划8，要执行的的测试用例内容test_wework_case.py 
+[2022-03-27 17:18:41] [DEBUG] [build.py]/[line: 45]/[create] 创建构建记录对应的计划id为8， 测试报告为http://www.loseweight.ren:8080/job/ck21/16/allure 
+[2022-03-27 17:18:42] [INFO] [plan.py]/[line: 53]/[post] 测试计划新增接口接收到的参数<====== {'name': 'hogwarts2', 'testcases': '[3]'} 
+[2022-03-27 17:18:42] [DEBUG] [plan.py]/[line: 45]/[create] 测试列表[3]，获取到的测试用例的对象为[<TestcaseModel 3>] 
