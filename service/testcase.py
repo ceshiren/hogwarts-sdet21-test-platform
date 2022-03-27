@@ -4,7 +4,7 @@ __desc__ = '更多测试开发技术探讨，请访问：https://ceshiren.com/t/
 """
 # 服务层
 from backend_actual.log_util import logger
-from dao.testcase_model import TestCase
+from dao.testcase_model import TestcaseModel
 from server import db
 
 
@@ -13,7 +13,7 @@ class Testcase:
         if case_id:
             # 如果不为空，查询操作
             # case_data = TestCase.query.filter_by(id=case_id).first()
-            case_data = TestCase.get_by_filter(id=case_id)
+            case_data = TestcaseModel.get_by_filter(id=case_id)
             logger.info(f"{case_data}")
             if case_data:
                 datas = [{"id": case_data.id,
@@ -23,7 +23,7 @@ class Testcase:
                 datas = []
         else:
             # 为空，返回所有记录
-            case_datas = TestCase.get_all()
+            case_datas = TestcaseModel.get_all()
             datas = [{"id": case_data.id,
                       "case_title": case_data.case_title,
                       "remark": case_data.remark} for case_data in case_datas]
@@ -36,10 +36,10 @@ class Testcase:
         case_id = case_id
         # 查询数据库，查看是否有记录
         # exists = TestCase.query.filter_by(id=case_id).first()
-        exists = TestCase.get_by_filter(id=case_id)
+        exists = TestcaseModel.get_by_filter(id=case_id)
         logger.info(f"查询表结果：{exists}")
         if not exists:
-            TestCase.create( case_id, case_title, remark)
+            TestcaseModel.create(case_id, case_title, remark)
             return True
         else:
             return False
@@ -51,9 +51,9 @@ class Testcase:
         :return:
         """
         # exists = TestCase.query.filter_by(id=case_id).first()
-        exists = TestCase.get_by_filter(id=case_id)
+        exists = TestcaseModel.get_by_filter(id=case_id)
         if exists:
-            TestCase.delete(id=case_id)
+            TestcaseModel.delete(id=case_id)
             return True
         return False
 

@@ -6,7 +6,7 @@ from flask import request
 from flask_restx import Namespace, Resource
 
 from backend_actual.log_util import logger
-from dao.testcase_model import TestCase
+from dao.testcase_model import TestcaseModel
 from server import api, db
 from service.testcase import Testcase
 
@@ -80,7 +80,7 @@ class TestCaseServer(Resource):
         logger.info(f"接收到的参数<====== {case_data}")
         case_id = case_data.get("id")
         # 查询数据库，查看是否有记录
-        exists = TestCase.query.filter_by(id=case_id).first()
+        exists = TestcaseModel.query.filter_by(id=case_id).first()
         logger.info(f"查询表结果：{exists}")
         # 如果不存在，则 不执行修改操作 并返回 40002
         # 如果存在，执行修改操作
@@ -88,7 +88,7 @@ class TestCaseServer(Resource):
             case_data1 = {}
             case_data1["case_title"] = case_data.get("case_title")
             case_data1["remark"] = case_data.get("remark")
-            TestCase.query.filter_by(id=case_id).update(case_data1)
+            TestcaseModel.query.filter_by(id=case_id).update(case_data1)
             db.session.commit()
             db.session.close()
             return {"code": 0, "msg": f"case id {case_id} success change to {case_data1}"}

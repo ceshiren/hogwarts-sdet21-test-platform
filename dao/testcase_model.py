@@ -10,7 +10,7 @@ from backend_actual.log_util import logger
 from server import db
 
 
-class TestCase(db.Model):
+class TestcaseModel(db.Model):
     # 表名
     __tablename__ = "testcase"
     # 用例ID 用例的唯 一标识
@@ -38,7 +38,7 @@ class TestCase(db.Model):
 
     @classmethod
     def delete(cls, **kwargs):
-        TestCase.query.filter_by(**kwargs).delete()
+        TestcaseModel.query.filter_by(**kwargs).delete()
         # commit 之后需要添加close
         db.session.commit()
         db.session.close()  # 接口的返回信息

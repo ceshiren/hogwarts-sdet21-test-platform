@@ -47,7 +47,7 @@ class TestcaseModel(db.Model):
 if __name__ == '__main__':
     # 多对多示例
     # db.create_all()
-    # db.drop_all()
+    db.drop_all()
     # =========数据的增加========
     # 1. 需要先有两张表的独立数据。
     # 2. 需要简历数据和数据之间的关联关系。
@@ -85,9 +85,9 @@ if __name__ == '__main__':
     # 获取测试用例3.的测试计划的第一个的名称
     # print(testcase3.plancase[0].name)
     # =========数据的删除========
-    testcase2 = TestcaseModel.query.filter_by(id=2).first()
-    db.session.delete(testcase2)
-    db.session.commit()
-    db.session.close()
+    # testcase2 = TestcaseModel.query.filter_by(id=2).first()
+    # db.session.delete(testcase2)
+    # db.session.commit()
+    # db.session.close()
 
 
