@@ -18,11 +18,11 @@ class TestTestcase:
 
 
     def test_create(self):
-        self.testcase.create(6, "testcase6.py", "6666")
+        self.testcase.create(1, "testcase1.py", "111")
         # 如果create 方法没有bug，那么使用get(5)，就一定有返回值
-        r = self.testcase.get(6)
+        r = self.testcase.get(1)
         # 相当于一个后置动作，只是为了方便单元测试
-        self.testcase.delete(6)
+        # self.testcase.delete(6)
         assert r != []
 
     def test_delete(self):

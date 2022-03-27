@@ -5,7 +5,7 @@ __desc__ = '更多测试开发技术探讨，请访问：https://ceshiren.com/t/
 from flask import Flask
 from flask_restx import Api
 from flask_sqlalchemy import SQLAlchemy
-
+from sqlalchemy.orm import Session
 
 app = Flask(__name__)
 api = Api(app)
@@ -23,6 +23,10 @@ app.config['SQLALCHEMY_DATABASE_URI'] = \
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 # SQLAlchemy 绑定 app
 db = SQLAlchemy(app)
+# 为了查询的时候IDE可以有对应的提示
+db_session:Session = db.session
+# db_session.query(TestcaseModel).filter_by() 等同于
+# TestcaseModel.query.filter_by()
 
 # 导包
 def get_router():

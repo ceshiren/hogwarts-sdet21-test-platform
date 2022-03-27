@@ -120,3 +120,45 @@
 [2022-03-20 17:25:27] [INFO] [testcase_model.py]/[line: 34]/[create] 将要存储的内容为<======<TestCase (transient 4456184224)> 
 [2022-03-20 17:25:27] [INFO] [testcase.py]/[line: 17]/[get] <TestCase 6> 
 [2022-03-20 17:25:27] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 6, 'case_title': 'testcase6.py', 'remark': '6666'}] 
+[2022-03-27 15:40:02] [INFO] [testcase.py]/[line: 40]/[create] 查询表结果：None 
+[2022-03-27 15:40:02] [INFO] [testcase_model.py]/[line: 35]/[create] 将要存储的内容为<======<TestcaseModel (transient 4532241072)> 
+[2022-03-27 15:40:02] [INFO] [testcase.py]/[line: 17]/[get] <TestcaseModel 1> 
+[2022-03-27 15:40:02] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '1111'}] 
+[2022-03-27 15:40:15] [INFO] [testcase.py]/[line: 40]/[create] 查询表结果：None 
+[2022-03-27 15:40:15] [INFO] [testcase_model.py]/[line: 35]/[create] 将要存储的内容为<======<TestcaseModel (transient 4563866240)> 
+[2022-03-27 15:40:15] [INFO] [testcase.py]/[line: 17]/[get] <TestcaseModel 1> 
+[2022-03-27 15:40:15] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '1111'}] 
+[2022-03-27 15:41:08] [DEBUG] [plan.py]/[line: 24]/[create] 测试列表[1, 2]，获取到的测试用例的对象为[<TestcaseModel 1>, <TestcaseModel 2>] 
+[2022-03-27 15:47:14] [DEBUG] [plan.py]/[line: 33]/[create] 测试列表[1, 2]，获取到的测试用例的对象为[<TestcaseModel 1>, <TestcaseModel 2>] 
+[2022-03-27 15:48:06] [DEBUG] [plan.py]/[line: 33]/[create] 测试列表[1, 2]，获取到的测试用例的对象为[<TestcaseModel 1>, <TestcaseModel 2>] 
+[2022-03-27 15:52:44] [DEBUG] [plan.py]/[line: 33]/[create] 测试列表[1, 2]，获取到的测试用例的对象为[<TestcaseModel 1>, <TestcaseModel 2>] 
+[2022-03-27 15:52:44] [DEBUG] [plan_model.py]/[line: 41]/[create] 创建的测试计划的ID为->3 
+[2022-03-27 15:52:44] [DEBUG] [plan.py]/[line: 18]/[execute] 测试计划3，要执行的的测试用例内容[<TestcaseModel 1>, <TestcaseModel 2>] 
+[2022-03-27 15:53:56] [INFO] [testcase.py]/[line: 40]/[create] 查询表结果：None 
+[2022-03-27 15:53:56] [INFO] [testcase_model.py]/[line: 35]/[create] 将要存储的内容为<======<TestcaseModel (transient 4525359888)> 
+[2022-03-27 15:53:56] [INFO] [testcase.py]/[line: 17]/[get] None 
+[2022-03-27 15:53:56] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[] 
+[2022-03-27 15:54:18] [INFO] [testcase.py]/[line: 40]/[create] 查询表结果：None 
+[2022-03-27 15:54:18] [INFO] [testcase_model.py]/[line: 35]/[create] 将要存储的内容为<======<TestcaseModel (transient 4551295712)> 
+[2022-03-27 15:54:18] [INFO] [testcase.py]/[line: 17]/[get] <TestcaseModel 1> 
+[2022-03-27 15:54:18] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}] 
+[2022-03-27 15:54:39] [DEBUG] [plan.py]/[line: 33]/[create] 测试列表[1, 2]，获取到的测试用例的对象为[<TestcaseModel 1>, <TestcaseModel 2>] 
+[2022-03-27 15:54:39] [DEBUG] [plan_model.py]/[line: 41]/[create] 创建的测试计划的ID为->1 
+[2022-03-27 15:54:39] [DEBUG] [plan.py]/[line: 18]/[execute] 测试计划1，要执行的的测试用例内容[<TestcaseModel 1>, <TestcaseModel 2>] 
+[2022-03-27 15:58:35] [DEBUG] [plan.py]/[line: 44]/[get] 获取到的测试计划的列表为[<PlanModel 1>] 
+[2022-03-27 15:58:49] [DEBUG] [plan.py]/[line: 44]/[get] 获取到的测试计划的列表为[<PlanModel 1>] 
+[2022-03-27 16:03:02] [DEBUG] [plan.py]/[line: 53]/[get_objs] 获取到的测试计划的列表为[<PlanModel 1>] 
+[2022-03-27 16:03:02] [INFO] [plan.py]/[line: 46]/[get] 获取到的测试计划的数据为->[{'id': 1, 'name': '测试计划1', 'testcase_info': [<TestcaseModel 1>, <TestcaseModel 2>]}] 
+[2022-03-27 16:05:04] [DEBUG] [plan.py]/[line: 58]/[get_objs] 获取到的测试计划的列表为[<PlanModel 1>] 
+[2022-03-27 16:05:16] [DEBUG] [plan.py]/[line: 58]/[get_objs] 获取到的测试计划的列表为[<PlanModel 1>] 
+[2022-03-27 16:05:16] [INFO] [plan.py]/[line: 51]/[get] 获取到的测试计划的数据为->[{'id': 1, 'name': '测试计划1', 'testcase_info': ['testcase1.py', 'testcase2.py']}] 
+[2022-03-27 16:07:17] [DEBUG] [plan.py]/[line: 33]/[create] 测试列表[2]，获取到的测试用例的对象为[<TestcaseModel 2>] 
+[2022-03-27 16:07:17] [DEBUG] [plan_model.py]/[line: 50]/[create] 创建的测试计划的ID为->2 
+[2022-03-27 16:07:17] [DEBUG] [plan.py]/[line: 59]/[get_objs] 获取到的测试计划的列表为[<PlanModel 2>] 
+[2022-03-27 16:07:17] [INFO] [plan.py]/[line: 51]/[get] 获取到的测试计划的数据为->[{'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}] 
+[2022-03-27 16:07:17] [DEBUG] [plan.py]/[line: 18]/[execute] 测试计划2，要执行的的测试用例内容[{'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}] 
+[2022-03-27 16:08:10] [DEBUG] [plan.py]/[line: 33]/[create] 测试列表[1]，获取到的测试用例的对象为[<TestcaseModel 1>] 
+[2022-03-27 16:08:10] [DEBUG] [plan_model.py]/[line: 50]/[create] 创建的测试计划的ID为->3 
+[2022-03-27 16:08:10] [DEBUG] [plan.py]/[line: 59]/[get_objs] 获取到的测试计划的列表为[<PlanModel 3>] 
+[2022-03-27 16:08:10] [INFO] [plan.py]/[line: 51]/[get] 获取到的测试计划的数据为->[{'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}] 
+[2022-03-27 16:08:10] [DEBUG] [plan.py]/[line: 18]/[execute] 测试计划3，要执行的的测试用例内容['testcase1.py'] 

@@ -54,9 +54,9 @@ if __name__ == '__main__':
     # plan1 = PlanModel(name="飞书计划")
     # plan2 = PlanModel(name="企业微信计划")
     # plan3 = PlanModel(name="淘宝计划")
-    # testcase = TestcaseModel(case_title="test_demo.py", remark="111111")
-    # testcase2 = TestcaseModel(case_title="test_demo2.py", remark="22222")
-    # testcase3 = TestcaseModel(case_title="test_demo3.py", remark="33333")
+    testcase = TestcaseModel(case_title="test_demo.py", remark="111111")
+    testcase2 = TestcaseModel(case_title="test_demo2.py", remark="22222")
+    testcase3 = TestcaseModel(case_title="test_demo3.py", remark="33333")
     # # plan 表添加3条数据， testcase添加2条数据
     # db.session.add_all([plan1, plan2, plan3, testcase, testcase2, testcase3])
     # # 重点！！！！：建立关联关系
