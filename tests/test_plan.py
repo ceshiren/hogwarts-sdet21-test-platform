@@ -10,7 +10,8 @@ class TestPlan:
         self.plan = Plan()
 
     def test_create(self):
-        self.plan.create("测试计划3", [1])
+        # self.plan.create("测试计划3", [1])
+        self.plan.create("企业微信计划", [3])
 
     def test_get(self):
         self.plan.get(1)

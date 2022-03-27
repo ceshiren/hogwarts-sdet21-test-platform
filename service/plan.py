@@ -5,6 +5,8 @@ __desc__ = '更多测试开发技术探讨，请访问：https://ceshiren.com/t/
 from backend_actual.log_util import logger
 from dao import TestcaseModel, PlanModel
 from server import db_session
+from service.build import Build
+from utils.jenkins_util import JenkinsUtils
 
 
 class Plan:
@@ -15,10 +17,17 @@ class Plan:
         test_demo.py
         :return:
         """
+
+        # ['testcase1.py', 'testcase2.py']  -> pytest testcase1.py testcase2.py
+        # 完成格式转换，jenkins可以直接调用
+        case_titles = " ".join(case_titles)
         logger.debug(f"测试计划{plan_id}，"
                      f"要执行的的测试用例内容{case_titles}")
         # 调用执行器执行测试用例
+        report = JenkinsUtils.invoke(task=case_titles)
         # 写入构建记录
+        build = Build()
+        build.create(plan_id, report)
 
 
     def create(self, name, case_id_lists):
