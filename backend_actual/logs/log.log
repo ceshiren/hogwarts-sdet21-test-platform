@@ -205,3 +205,214 @@
 [2022-03-27 17:18:41] [DEBUG] [build.py]/[line: 45]/[create] 创建构建记录对应的计划id为8， 测试报告为http://www.loseweight.ren:8080/job/ck21/16/allure 
 [2022-03-27 17:18:42] [INFO] [plan.py]/[line: 53]/[post] 测试计划新增接口接收到的参数<====== {'name': 'hogwarts2', 'testcases': '[3]'} 
 [2022-03-27 17:18:42] [DEBUG] [plan.py]/[line: 45]/[create] 测试列表[3]，获取到的测试用例的对象为[<TestcaseModel 3>] 
+[2022-03-27 17:26:53] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:26:53] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:26:53] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:26:59] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:26:59] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:26:59] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:30:33] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:30:33] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:30:34] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:33:17] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:33:17] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:33:17] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:33:49] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:33:49] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:33:49] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:34:07] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:34:07] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:34:07] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:34:57] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:34:57] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:34:57] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:34:57] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:34:57] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:34:57] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:35:00] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:35:00] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:35:00] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:35:17] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:35:17] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:35:17] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:36:11] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:36:11] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:36:11] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:40:07] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:40:07] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:40:07] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:40:07] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:40:07] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:40:07] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:40:17] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:40:17] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:40:17] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:41:03] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:41:03] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:41:03] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:41:03] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:41:03] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:41:03] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:42:42] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:42:42] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:42:42] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:46:35] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:46:35] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:46:35] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:47:18] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:47:18] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:47:18] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:47:18] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:47:18] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:47:18] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:47:21] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:47:21] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:47:21] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:47:21] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:47:21] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:47:21] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:47:29] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:47:29] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:47:29] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:48:31] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:48:31] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:48:31] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 17:49:10] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:49:10] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:49:12] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:49:12] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:50:34] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:50:34] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:50:37] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:50:37] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:51:54] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:51:54] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:51:56] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:51:56] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:53:14] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:53:14] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:54:49] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:54:49] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:55:18] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 17:55:18] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 17:55:18] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 18:00:11] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:00:11] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 18:00:11] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 18:01:12] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:01:12] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 18:01:12] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 18:01:17] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:01:17] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 18:01:18] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 18:17:33] [INFO] [plan.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:17:33] [INFO] [plan.py]/[line: 33]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:17:33] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 8>, <PlanModel 6>, <PlanModel 1>, <PlanModel 2>, <PlanModel 3>, <PlanModel 4>, <PlanModel 5>] 
+[2022-03-27 18:17:33] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 8, 'name': 'hogwarts2', 'testcase_info': ['test_wework_case.py']}, {'id': 6, 'name': '企业微信计划', 'testcase_info': ['test_wework_case.py']}, {'id': 1, 'name': '测试计划1', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}, {'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}, {'id': 4, 'name': '飞书计划', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 5, 'name': '飞书计划2', 'testcase_info': ['testcase1.py', 'testcase2.py']}] 
+[2022-03-27 18:19:46] [INFO] [plan.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:19:46] [INFO] [plan.py]/[line: 33]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:19:46] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 8>, <PlanModel 6>, <PlanModel 1>, <PlanModel 2>, <PlanModel 3>, <PlanModel 4>, <PlanModel 5>] 
+[2022-03-27 18:19:47] [INFO] [plan.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:19:47] [INFO] [plan.py]/[line: 33]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:19:47] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 8>, <PlanModel 6>, <PlanModel 1>, <PlanModel 2>, <PlanModel 3>, <PlanModel 4>, <PlanModel 5>] 
+[2022-03-27 18:19:47] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 8, 'name': 'hogwarts2', 'testcase_info': ['test_wework_case.py']}, {'id': 6, 'name': '企业微信计划', 'testcase_info': ['test_wework_case.py']}, {'id': 1, 'name': '测试计划1', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}, {'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}, {'id': 4, 'name': '飞书计划', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 5, 'name': '飞书计划2', 'testcase_info': ['testcase1.py', 'testcase2.py']}] 
+[2022-03-27 18:19:47] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 8, 'name': 'hogwarts2', 'testcase_info': ['test_wework_case.py']}, {'id': 6, 'name': '企业微信计划', 'testcase_info': ['test_wework_case.py']}, {'id': 1, 'name': '测试计划1', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}, {'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}, {'id': 4, 'name': '飞书计划', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 5, 'name': '飞书计划2', 'testcase_info': ['testcase1.py', 'testcase2.py']}] 
+[2022-03-27 18:20:16] [INFO] [plan.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:20:16] [INFO] [plan.py]/[line: 33]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:20:16] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 8>, <PlanModel 6>, <PlanModel 1>, <PlanModel 2>, <PlanModel 3>, <PlanModel 4>, <PlanModel 5>] 
+[2022-03-27 18:20:16] [INFO] [plan.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:20:16] [INFO] [plan.py]/[line: 33]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:20:16] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 8>, <PlanModel 6>, <PlanModel 1>, <PlanModel 2>, <PlanModel 3>, <PlanModel 4>, <PlanModel 5>] 
+[2022-03-27 18:20:16] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 8, 'name': 'hogwarts2', 'testcase_info': ['test_wework_case.py']}, {'id': 6, 'name': '企业微信计划', 'testcase_info': ['test_wework_case.py']}, {'id': 1, 'name': '测试计划1', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}, {'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}, {'id': 4, 'name': '飞书计划', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 5, 'name': '飞书计划2', 'testcase_info': ['testcase1.py', 'testcase2.py']}] 
+[2022-03-27 18:20:16] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 8, 'name': 'hogwarts2', 'testcase_info': ['test_wework_case.py']}, {'id': 6, 'name': '企业微信计划', 'testcase_info': ['test_wework_case.py']}, {'id': 1, 'name': '测试计划1', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}, {'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}, {'id': 4, 'name': '飞书计划', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 5, 'name': '飞书计划2', 'testcase_info': ['testcase1.py', 'testcase2.py']}] 
+[2022-03-27 18:20:17] [INFO] [plan.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:20:17] [INFO] [plan.py]/[line: 33]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:20:17] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 8>, <PlanModel 6>, <PlanModel 1>, <PlanModel 2>, <PlanModel 3>, <PlanModel 4>, <PlanModel 5>] 
+[2022-03-27 18:20:17] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 8, 'name': 'hogwarts2', 'testcase_info': ['test_wework_case.py']}, {'id': 6, 'name': '企业微信计划', 'testcase_info': ['test_wework_case.py']}, {'id': 1, 'name': '测试计划1', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}, {'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}, {'id': 4, 'name': '飞书计划', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 5, 'name': '飞书计划2', 'testcase_info': ['testcase1.py', 'testcase2.py']}] 
+[2022-03-27 18:20:32] [INFO] [plan.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:20:32] [INFO] [plan.py]/[line: 33]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:20:32] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 8>, <PlanModel 6>, <PlanModel 1>, <PlanModel 2>, <PlanModel 3>, <PlanModel 4>, <PlanModel 5>] 
+[2022-03-27 18:20:32] [INFO] [plan.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:20:32] [INFO] [plan.py]/[line: 33]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:20:32] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 8, 'name': 'hogwarts2', 'testcase_info': ['test_wework_case.py']}, {'id': 6, 'name': '企业微信计划', 'testcase_info': ['test_wework_case.py']}, {'id': 1, 'name': '测试计划1', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}, {'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}, {'id': 4, 'name': '飞书计划', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 5, 'name': '飞书计划2', 'testcase_info': ['testcase1.py', 'testcase2.py']}] 
+[2022-03-27 18:20:32] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 8>, <PlanModel 6>, <PlanModel 1>, <PlanModel 2>, <PlanModel 3>, <PlanModel 4>, <PlanModel 5>] 
+[2022-03-27 18:20:32] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 8, 'name': 'hogwarts2', 'testcase_info': ['test_wework_case.py']}, {'id': 6, 'name': '企业微信计划', 'testcase_info': ['test_wework_case.py']}, {'id': 1, 'name': '测试计划1', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}, {'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}, {'id': 4, 'name': '飞书计划', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 5, 'name': '飞书计划2', 'testcase_info': ['testcase1.py', 'testcase2.py']}] 
+[2022-03-27 18:21:31] [INFO] [build.py]/[line: 30]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:21:31] [DEBUG] [build.py]/[line: 35]/[get_objs_by_plan_id] 获取到的构建记录的列表为[<BuildModel 1>, <BuildModel 2>, <BuildModel 3>] 
+[2022-03-27 18:21:31] [INFO] [build.py]/[line: 25]/[get] 获取到的构建记录的数据为->[{'plan_id': 1, 'report': '测试报告', 'created_at': '2022-03-27 16:32:16'}, {'plan_id': 6, 'report': 'http://www.loseweight.ren:8080/job/ck21/15/allure', 'created_at': '2022-03-27 16:55:45'}, {'plan_id': 8, 'report': 'http://www.loseweight.ren:8080/job/ck21/16/allure', 'created_at': '2022-03-27 17:18:24'}] 
+[2022-03-27 18:21:46] [INFO] [build.py]/[line: 30]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:21:46] [DEBUG] [build.py]/[line: 35]/[get_objs_by_plan_id] 获取到的构建记录的列表为[<BuildModel 1>, <BuildModel 2>, <BuildModel 3>] 
+[2022-03-27 18:21:46] [INFO] [build.py]/[line: 25]/[get] 获取到的构建记录的数据为->[{'plan_id': 1, 'report': '测试报告', 'created_at': '2022-03-27 16:32:16'}, {'plan_id': 6, 'report': 'http://www.loseweight.ren:8080/job/ck21/15/allure', 'created_at': '2022-03-27 16:55:45'}, {'plan_id': 8, 'report': 'http://www.loseweight.ren:8080/job/ck21/16/allure', 'created_at': '2022-03-27 17:18:24'}] 
+[2022-03-27 18:21:50] [INFO] [build.py]/[line: 30]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:21:50] [DEBUG] [build.py]/[line: 35]/[get_objs_by_plan_id] 获取到的构建记录的列表为[<BuildModel 1>, <BuildModel 2>, <BuildModel 3>] 
+[2022-03-27 18:21:50] [INFO] [build.py]/[line: 25]/[get] 获取到的构建记录的数据为->[{'plan_id': 1, 'report': '测试报告', 'created_at': '2022-03-27 16:32:16'}, {'plan_id': 6, 'report': 'http://www.loseweight.ren:8080/job/ck21/15/allure', 'created_at': '2022-03-27 16:55:45'}, {'plan_id': 8, 'report': 'http://www.loseweight.ren:8080/job/ck21/16/allure', 'created_at': '2022-03-27 17:18:24'}] 
+[2022-03-27 18:22:15] [INFO] [build.py]/[line: 30]/[get] 测试计划获取接口接收到的参数 <===== 1 
+[2022-03-27 18:22:15] [DEBUG] [build.py]/[line: 35]/[get_objs_by_plan_id] 获取到的构建记录的列表为[<BuildModel 1>] 
+[2022-03-27 18:22:15] [INFO] [build.py]/[line: 25]/[get] 获取到的构建记录的数据为->[{'plan_id': 1, 'report': '测试报告', 'created_at': '2022-03-27 16:32:16'}] 
+[2022-03-27 18:22:20] [INFO] [build.py]/[line: 30]/[get] 测试计划获取接口接收到的参数 <===== 1 
+[2022-03-27 18:22:20] [DEBUG] [build.py]/[line: 35]/[get_objs_by_plan_id] 获取到的构建记录的列表为[<BuildModel 1>] 
+[2022-03-27 18:22:20] [INFO] [build.py]/[line: 25]/[get] 获取到的构建记录的数据为->[{'plan_id': 1, 'report': '测试报告', 'created_at': '2022-03-27 16:32:16'}] 
+[2022-03-27 18:23:01] [INFO] [plan.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:23:01] [INFO] [plan.py]/[line: 33]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:23:01] [INFO] [plan.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:23:01] [INFO] [plan.py]/[line: 33]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:23:01] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 8>, <PlanModel 6>, <PlanModel 1>, <PlanModel 2>, <PlanModel 3>, <PlanModel 4>, <PlanModel 5>] 
+[2022-03-27 18:23:01] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 8>, <PlanModel 6>, <PlanModel 1>, <PlanModel 2>, <PlanModel 3>, <PlanModel 4>, <PlanModel 5>] 
+[2022-03-27 18:23:01] [INFO] [plan.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:23:01] [INFO] [plan.py]/[line: 33]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:23:01] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 8, 'name': 'hogwarts2', 'testcase_info': ['test_wework_case.py']}, {'id': 6, 'name': '企业微信计划', 'testcase_info': ['test_wework_case.py']}, {'id': 1, 'name': '测试计划1', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}, {'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}, {'id': 4, 'name': '飞书计划', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 5, 'name': '飞书计划2', 'testcase_info': ['testcase1.py', 'testcase2.py']}] 
+[2022-03-27 18:23:01] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 8>, <PlanModel 6>, <PlanModel 1>, <PlanModel 2>, <PlanModel 3>, <PlanModel 4>, <PlanModel 5>] 
+[2022-03-27 18:23:01] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 8, 'name': 'hogwarts2', 'testcase_info': ['test_wework_case.py']}, {'id': 6, 'name': '企业微信计划', 'testcase_info': ['test_wework_case.py']}, {'id': 1, 'name': '测试计划1', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}, {'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}, {'id': 4, 'name': '飞书计划', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 5, 'name': '飞书计划2', 'testcase_info': ['testcase1.py', 'testcase2.py']}] 
+[2022-03-27 18:23:01] [INFO] [plan.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:23:01] [INFO] [plan.py]/[line: 33]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:23:01] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 8>, <PlanModel 6>, <PlanModel 1>, <PlanModel 2>, <PlanModel 3>, <PlanModel 4>, <PlanModel 5>] 
+[2022-03-27 18:23:01] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 8, 'name': 'hogwarts2', 'testcase_info': ['test_wework_case.py']}, {'id': 6, 'name': '企业微信计划', 'testcase_info': ['test_wework_case.py']}, {'id': 1, 'name': '测试计划1', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}, {'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}, {'id': 4, 'name': '飞书计划', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 5, 'name': '飞书计划2', 'testcase_info': ['testcase1.py', 'testcase2.py']}] 
+[2022-03-27 18:23:01] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 8, 'name': 'hogwarts2', 'testcase_info': ['test_wework_case.py']}, {'id': 6, 'name': '企业微信计划', 'testcase_info': ['test_wework_case.py']}, {'id': 1, 'name': '测试计划1', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}, {'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}, {'id': 4, 'name': '飞书计划', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 5, 'name': '飞书计划2', 'testcase_info': ['testcase1.py', 'testcase2.py']}] 
+[2022-03-27 18:23:35] [INFO] [plan.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:23:35] [INFO] [plan.py]/[line: 33]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:23:35] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 8>, <PlanModel 6>, <PlanModel 1>, <PlanModel 2>, <PlanModel 3>, <PlanModel 4>, <PlanModel 5>] 
+[2022-03-27 18:23:35] [INFO] [plan.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:23:35] [INFO] [plan.py]/[line: 33]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:23:35] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 8, 'name': 'hogwarts2', 'testcase_info': ['test_wework_case.py']}, {'id': 6, 'name': '企业微信计划', 'testcase_info': ['test_wework_case.py']}, {'id': 1, 'name': '测试计划1', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}, {'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}, {'id': 4, 'name': '飞书计划', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 5, 'name': '飞书计划2', 'testcase_info': ['testcase1.py', 'testcase2.py']}] 
+[2022-03-27 18:23:35] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 8>, <PlanModel 6>, <PlanModel 1>, <PlanModel 2>, <PlanModel 3>, <PlanModel 4>, <PlanModel 5>] 
+[2022-03-27 18:23:35] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 8, 'name': 'hogwarts2', 'testcase_info': ['test_wework_case.py']}, {'id': 6, 'name': '企业微信计划', 'testcase_info': ['test_wework_case.py']}, {'id': 1, 'name': '测试计划1', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}, {'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}, {'id': 4, 'name': '飞书计划', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 5, 'name': '飞书计划2', 'testcase_info': ['testcase1.py', 'testcase2.py']}] 
+[2022-03-27 18:24:09] [INFO] [plan.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:24:09] [INFO] [plan.py]/[line: 33]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:24:09] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 8>, <PlanModel 6>, <PlanModel 1>, <PlanModel 2>, <PlanModel 3>, <PlanModel 4>, <PlanModel 5>] 
+[2022-03-27 18:24:09] [INFO] [plan.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:24:09] [INFO] [plan.py]/[line: 33]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:24:09] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 8>, <PlanModel 6>, <PlanModel 1>, <PlanModel 2>, <PlanModel 3>, <PlanModel 4>, <PlanModel 5>] 
+[2022-03-27 18:24:09] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 8, 'name': 'hogwarts2', 'testcase_info': ['test_wework_case.py']}, {'id': 6, 'name': '企业微信计划', 'testcase_info': ['test_wework_case.py']}, {'id': 1, 'name': '测试计划1', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}, {'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}, {'id': 4, 'name': '飞书计划', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 5, 'name': '飞书计划2', 'testcase_info': ['testcase1.py', 'testcase2.py']}] 
+[2022-03-27 18:24:09] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 8, 'name': 'hogwarts2', 'testcase_info': ['test_wework_case.py']}, {'id': 6, 'name': '企业微信计划', 'testcase_info': ['test_wework_case.py']}, {'id': 1, 'name': '测试计划1', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}, {'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}, {'id': 4, 'name': '飞书计划', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 5, 'name': '飞书计划2', 'testcase_info': ['testcase1.py', 'testcase2.py']}] 
+[2022-03-27 18:24:14] [INFO] [build.py]/[line: 30]/[get] 测试计划获取接口接收到的参数 <===== 1 
+[2022-03-27 18:24:14] [DEBUG] [build.py]/[line: 35]/[get_objs_by_plan_id] 获取到的构建记录的列表为[<BuildModel 1>] 
+[2022-03-27 18:24:14] [INFO] [build.py]/[line: 25]/[get] 获取到的构建记录的数据为->[{'plan_id': 1, 'report': '测试报告', 'created_at': '2022-03-27 16:32:16'}] 
+[2022-03-27 18:24:20] [INFO] [build.py]/[line: 30]/[get] 测试计划获取接口接收到的参数 <===== 8 
+[2022-03-27 18:24:21] [DEBUG] [build.py]/[line: 35]/[get_objs_by_plan_id] 获取到的构建记录的列表为[<BuildModel 3>] 
+[2022-03-27 18:24:21] [INFO] [build.py]/[line: 25]/[get] 获取到的构建记录的数据为->[{'plan_id': 8, 'report': 'http://www.loseweight.ren:8080/job/ck21/16/allure', 'created_at': '2022-03-27 17:18:24'}] 
+[2022-03-27 18:25:14] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:25:14] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 18:25:14] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 18:26:20] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:26:20] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 18:26:20] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 18:26:58] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:26:58] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 18:26:59] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 
+[2022-03-27 18:27:49] [INFO] [plan.py]/[line: 53]/[post] 测试计划新增接口接收到的参数<====== {'name': '测开21', 'testcases': [3]} 
+[2022-03-27 18:27:49] [DEBUG] [plan.py]/[line: 45]/[create] 测试列表[3]，获取到的测试用例的对象为[<TestcaseModel 3>] 
+[2022-03-27 18:27:49] [DEBUG] [plan_model.py]/[line: 50]/[create] 创建的测试计划的ID为->10 
+[2022-03-27 18:27:49] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 10>] 
+[2022-03-27 18:27:49] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 10, 'name': '测开21', 'testcase_info': ['test_wework_case.py']}] 
+[2022-03-27 18:27:49] [DEBUG] [plan.py]/[line: 24]/[execute] 测试计划10，要执行的的测试用例内容test_wework_case.py 
+[2022-03-27 18:27:49] [DEBUG] [build.py]/[line: 45]/[create] 创建构建记录对应的计划id为10， 测试报告为http://www.loseweight.ren:8080/job/ck21/17/allure 
+[2022-03-27 18:27:54] [INFO] [plan.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:27:54] [INFO] [plan.py]/[line: 33]/[get] 测试计划获取接口接收到的参数 <===== None 
+[2022-03-27 18:27:54] [DEBUG] [plan.py]/[line: 78]/[get_objs] 获取到的测试计划的列表为[<PlanModel 8>, <PlanModel 6>, <PlanModel 10>, <PlanModel 1>, <PlanModel 2>, <PlanModel 3>, <PlanModel 4>, <PlanModel 5>] 
+[2022-03-27 18:27:54] [INFO] [plan.py]/[line: 69]/[get] 获取到的测试计划的数据为->[{'id': 8, 'name': 'hogwarts2', 'testcase_info': ['test_wework_case.py']}, {'id': 6, 'name': '企业微信计划', 'testcase_info': ['test_wework_case.py']}, {'id': 10, 'name': '测开21', 'testcase_info': ['test_wework_case.py']}, {'id': 1, 'name': '测试计划1', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 2, 'name': '测试计划2', 'testcase_info': ['testcase2.py']}, {'id': 3, 'name': '测试计划3', 'testcase_info': ['testcase1.py']}, {'id': 4, 'name': '飞书计划', 'testcase_info': ['testcase1.py', 'testcase2.py']}, {'id': 5, 'name': '飞书计划2', 'testcase_info': ['testcase1.py', 'testcase2.py']}] 
+[2022-03-27 18:28:00] [INFO] [build.py]/[line: 30]/[get] 测试计划获取接口接收到的参数 <===== 10 
+[2022-03-27 18:28:00] [DEBUG] [build.py]/[line: 35]/[get_objs_by_plan_id] 获取到的构建记录的列表为[<BuildModel 4>] 
+[2022-03-27 18:28:00] [INFO] [build.py]/[line: 25]/[get] 获取到的构建记录的数据为->[{'plan_id': 10, 'report': 'http://www.loseweight.ren:8080/job/ck21/17/allure', 'created_at': '2022-03-27 18:22:13'}] 
+[2022-03-27 18:28:12] [INFO] [testcase.py]/[line: 32]/[get] type(request.args) <===== <class 'werkzeug.datastructures.ImmutableMultiDict'> 
+[2022-03-27 18:28:12] [INFO] [testcase.py]/[line: 33]/[get] 接收到的参数 <===== None 
+[2022-03-27 18:28:12] [INFO] [testcase.py]/[line: 30]/[get] 要返回的数据为<======[{'id': 1, 'case_title': 'testcase1.py', 'remark': '111'}, {'id': 2, 'case_title': 'testcase2.py', 'remark': '2222'}, {'id': 3, 'case_title': 'test_wework_case.py', 'remark': '接口测试用例'}] 

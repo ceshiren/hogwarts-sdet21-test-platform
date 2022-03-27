@@ -30,7 +30,7 @@ class Testcase:
         logger.info(f"要返回的数据为<======{datas}")
 
         # return datas 保证路由有要返回的数据
-        return {"code": 0, "msg": {"status": "success", "data": datas}}
+        return datas
 
     def create(self,  case_id, case_title, remark):
         case_id = case_id

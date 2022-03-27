@@ -26,7 +26,7 @@ class BuildServer(Resource):
         :return:
         """
         # 接口的请求数据信息
-        plan_id = request.args.get("id")
+        plan_id = request.args.get("plan_id")
         logger.info(f"测试计划获取接口接收到的参数 <===== {plan_id}")
         # =====调用service层的具体的业务逻辑
         build = Build()

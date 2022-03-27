@@ -3,6 +3,7 @@ __author__ = '霍格沃兹测试开发学社'
 __desc__ = '更多测试开发技术探讨，请访问：https://ceshiren.com/t/topic/15860'
 """
 from flask import Flask
+from flask_cors import CORS
 from flask_restx import Api
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import Session
@@ -10,6 +11,7 @@ from sqlalchemy.orm import Session
 
 app = Flask(__name__)
 api = Api(app)
+CORS(app, supports_credentials=True)
 
 
 # with open("./data.yml") as f:
